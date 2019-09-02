@@ -1,5 +1,6 @@
 backend:
-  name: test-repo
+  name: github
+  repo: amfever505/my-gatsby-blog
 
 media_folder: static/assets
 public_folder: assets
@@ -15,3 +16,5 @@ collections:
       - { name: title, label: Title }
       - { name: description, label: Description }
       - { name: body, label: Body, widget: markdown }
+
+
